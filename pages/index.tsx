@@ -93,8 +93,8 @@ function Index() {
             <span className="text-base sm:text-[20px] font-normal font-ibmplexsans leading-normal text-gray-700 opacity-75">Discover the Best Financial Products with Ease</span>
           </div>
           <div className="flex flex-row gap-2 items-center z-10 w-full sm:w-auto">
-            <Link href="/en/creditcards"><button className="bg-[#A3278F] text-white-A700 font-ibmplexsans font-medium text-sm sm:text-base px-6 py-2 rounded-3xl w-1/2 sm:min-w-[130px]">Credit card</button></Link>
-            <Link href="/en/loans"><button className="bg-[#4F30AB] text-white-A700 font-ibmplexsans font-medium text-sm sm:text-base px-6 py-2 rounded-3xl w-1/2 sm:min-w-[130px]">Loans</button></Link>
+            <Link href="/en/creditcards"><button className="bg-[#A3278F] text-white-A700 font-ibmplexsans font-medium text-sm sm:text-base px-6 py-2 rounded-3xl w-1/2 sm:min-w-[130px] sm:w-[130px]">Credit card</button></Link>
+            <Link href="/en/loans"><button className="bg-[#4F30AB] text-white-A700 font-ibmplexsans font-medium text-sm sm:text-base px-6 py-2 rounded-3xl w-1/2 sm:min-w-[130px] sm:w-[130px]">Loans</button></Link>
           </div>
         </div>
         <div className="absolute w-full top-0 left-0 right-0">
@@ -215,7 +215,7 @@ function Index() {
           <div className="w-full cursor-pointer border-2 border-[#4F30AB] text-[#4F30AB] rounded-[44px] py-2 sm:py-3 sm:w-[184px] text-center">Show more</div>
           <div className="flex flex-row justify-between items-center gap-3">
             <Img src={LightBlub.src} className="w-8 h-8 sm:w-[44px] sm:h-[44px]"/>
-            <span className="text-[#A3278F88] text-base sm:text-[22px] font-medium">Didn't find the answer to your question? Ask here</span>
+            <span className="text-[#A3278F88] text-base sm:text-[22px] font-medium">Didn`t find the answer to your question? Ask here</span>
           </div>
         </div>
       </div>
@@ -227,7 +227,7 @@ function Index() {
             <span className="text-white-A700 font-ibmplexsans text-base sm:text-lg font-light leading-normal">Have questions? Our team is ready to assist you.</span>
           </div>
           <div className="flex sm:hidden h-px bg-[#F0F0F0] opacity-50 w-full"></div>
-          <div className="flex flex-row items-center gap-6 w-full">
+          <div className="flex flex-row items-center gap-6 w-full sm:w-auto">
             <span className="text-[#F0F0F0] opacity-70 text-base sm:text-lg font-semibold w-full sm:w-auto">Follow us on:</span>
             <Img src={TwitterIcon.src} className="w-6 h-6 sm:w-8 sm:h-8" />
             <Img src={LinkedinIcon.src} className="w-6 h-6 sm:w-8 sm:h-8" />
