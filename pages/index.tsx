@@ -205,7 +205,7 @@ function Index() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4 sm:flex-wrap">
+        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-2">
           {faqs.map((faq, index) => {
             return <CollapsibleCard key={index} question={faq.question} answer={faq.answer} minimized={false} />
           })}

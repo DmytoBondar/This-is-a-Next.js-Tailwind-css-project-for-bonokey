@@ -14,7 +14,7 @@ type Props = {
 const CollapsibleCard = (props:Props) => {
   const [open, SetOpen] = useState(props?.minimized);
 
-  return (<div className={`h-fit w-full sm:w-1/2 rounded-2xl bg-white-A700 ${props.customClass} ${open?'border-2 border-[#4F30AB]':'border border-[#4F30AB44]'}`}>
+  return (<div className={`h-fit rounded-2xl bg-white-A700 ${props.customClass} ${open?'border-2 border-[#4F30AB]':'border border-[#4F30AB44]'}`}>
   <div className={`py-3 px-4 sm:py-4 sm:px-5 flex flex-row w-full items-center gap-4 sm:gap-5 ${open?'rounded-t-2xl':'rounded-2xl'}`}>
     <div className="p-3 bg-[#4F30AB0C] rounded-full"><LiveHelpIcon className="text-xl"/></div>
     <span className={`text-left text-base sm:text-[22px] w-auto font-ibmplexsans font-medium ${open?'text-[#4F30AB]':'text-gray-0'}`}>{ props.question }</span>
