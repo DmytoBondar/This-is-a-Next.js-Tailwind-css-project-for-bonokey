@@ -1,0 +1,49 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/IBMPlexSans-Medium.ttf");
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/IBMPlexSans-SemiBold.ttf");
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/AbelRegular.ttf");
+  font-family: "Abel";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/IBMPlexSansArabic-SemiBold.ttf");
+  font-family: "IBM Plex Sans Arabic";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/IBMPlexSansArabic-Regular.ttf");
+  font-family: "IBM Plex Sans Arabic";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/IBMPlexSansArabic-Medium.ttf");
+  font-family: "IBM Plex Sans Arabic";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("assets/fonts/InterSemiBold.ttf");
+  font-family: "Inter";
+  font-weight: 600;
+}
